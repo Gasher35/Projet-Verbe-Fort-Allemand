@@ -1,7 +1,6 @@
-Projet-MyWebHome
+Projet Verbe Fort Allemand
 ================
 
 Dossier avec les fichier Web du Projet
 
-
-Bonjours à tous voici mon Projet , qui est personnel et qui aura l'audace d'être un petit bureau Web !
+J'espère que le projet vous plait , si vous voulez faire des modifs , demandez moi l'authorisation : gasher@hotmail.fr
