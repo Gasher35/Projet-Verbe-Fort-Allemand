@@ -4,8 +4,9 @@ $pageDescription = "Révisez tout vos verbes fort grâce à ce tableau interract
 include('Inc/header.php');
 
 ?>
-	<h2>Remplit les cases du <strong>tableau des verbes</strong> que tu veux réviser et <strong>vérifie tes réponses</strong> pour voir si tu connais tes <strong>verbes fort</strong> en <strong>Allemand</strong> sur le bout des doigts !</h2>
-	<h3>Avant de cliquer sur vérifiez , assurez vous de ne faire le moins de fautes possible, chaque fautes apparaîtra en <em id="red">rouge</em> et chaque bonne réponse en <em id="green">vert</em>.</h3>
+	<h2>Remplis les cases du <strong>tableau des verbes</strong> que tu veux réviser et <strong>vérifies tes réponses</strong> pour voir si tu connais tes <strong>verbes forts</strong> en <strong>Allemand</strong> sur le bout des doigts !</h2>
+	<h3>Avant de cliquer sur vérifiez , assurez vous de ne faire le moins de fautes possible, chaque faute apparaîtra en <em id="red">rouge</em> et chaque bonne réponse en <em id="green">vert</em>.</h3>
+
 
 	<form method="post" action="verbes.php" autocomplete="off">
 		<table>
@@ -288,7 +289,7 @@ include('Inc/header.php');
 					<td><input type="text" name="hängen_0"></td>
 					<td><input type="text" name="hängen_1"></td>
 					<td><input type="text" name="hängen_2"></td>
-					<td class="translate">Ëtre accroché</td>
+					<td class="translate">Être accroché</td>
 				</tr>
 
 				</tbody>
@@ -305,7 +306,9 @@ include('Inc/header.php');
 	<div id="dev_id">
 	<p>Développé par : <strong>Botty Clément</strong>, en 2nd au <em>Prytanné National</em></p>
 	</div>
-<?php include('Inc/stats.php'); ?>
+<?php //include('Inc/stats.php'); ?>
+
+
 
  </body>
  </html>

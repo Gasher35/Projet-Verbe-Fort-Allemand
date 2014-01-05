@@ -40,7 +40,7 @@ h3 {
 
 p{
 	font-family: 'Lato';
-	color: #34495e;
+	color: #27ae60;
 }
 
 #dev_id {
@@ -66,14 +66,14 @@ th {
 	font-weight: 700;
 	font-size: 1.3em;
 	color: #34495e;
-	background-color: #27ae60;
+	background-color: #2980b9;
 }
 
 td {
 	font-family : 'Lato';
-	color: #2980b9;
+	color: #9AD6EE;
 	font-size: 1.3em;
-	background-color: #2ecc71;
+	background-color: #3498db;
 	text-align: center;
 }
 
@@ -82,13 +82,13 @@ input[type='text']{
 	border-style: none;
 	border: 2px solid #2980b9;
 	font-size: 0.9em;
-	color: #7C7C7C;
+	color: #34495e;
 	background-color: #ecf0f1;
 	width: 200px;
 }
 
 td.translate {
-	color: #7f8c8d;
+	color: #9AD6EE;
 }
 
 .last-td {
@@ -110,11 +110,10 @@ td.translate {
 }
 
 #green {
-	color: #1C881C;
-	transition : 3s;
+	color: #5DEB26;
+
 }
 
 #red {
-	transition : 3s;
 	color: #E04B46;
 }

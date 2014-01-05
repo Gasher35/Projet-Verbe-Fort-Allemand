@@ -469,7 +469,7 @@ if ($_POST["hängen_2"] == "hat gehangen"){ $Color["hängen_2"]="green";} else {
 					<td id="<?php echo $Color["hängen_0"]; ?>"><?php echo $_POST["hängen_0"]; ?></td>
 					<td id="<?php echo $Color["hängen_1"]; ?>"><?php echo $_POST["hängen_1"]; ?></td>
 					<td id="<?php echo $Color["hängen_2"]; ?>"><?php echo $_POST["hängen_2"]; ?></td>
-					<td class="translate">Ëtre accroché</td>
+					<td class="translate">Être accroché</td>
 				</tr>
 
 
