@@ -82,14 +82,14 @@ if ($_POST["erschrecken_2"] == "ist erschrocken"){$erschrecken_2 = "ist erschroc
 /* Verbe Essen */
 if ($_POST["essen_i"] == "Essen"){$essen_i = "Essen";$Color["essen_i"]="green";} else {$essen_i = $_POST["essen_i"]; $Color["essen_i"]="red"; }
 if ($_POST["essen_0"] == "isst"){$essen_0 = "isst"; $Color["essen_0"]="green";} else {$essen_0 = $_POST["essen_0"]; $Color["essen_0"]="red";}
-if ($_POST["essen_1"] == "ass"){$essen_1 = "ass"; $Color["essen_1"]="green";} else {$essen_1 = $_POST["essen_1"]; $Color["essen_1"]="red";}
+if ($_POST["essen_1"] == "aß"){$essen_1 = "aß"; $Color["essen_1"]="green";} else {$essen_1 = $_POST["essen_1"]; $Color["essen_1"]="red";}
 if ($_POST["essen_2"] == "hat gegessen"){$essen_2 = "hat gegessen"; $Color["essen_2"]="green";} else {$essen_2 = $_POST["essen_2"]; $Color["essen_2"]="red";}
 
 /* Verbe Fahren */
 if ($_POST["fahren_i"] == "Fahren"){$fahren_i = "Fahren";$Color["fahren_i"]="green";} else {$fahren_i = $_POST["fahren_i"]; $Color["fahren_i"]="red"; }
 if ($_POST["fahren_0"] == "fährt"){$fahren_0 = "fährt"; $Color["fahren_0"]="green";} else {$fahren_0 = $_POST["fahren_0"]; $Color["fahren_0"]="red";}
 if ($_POST["fahren_1"] == "fuhr"){$fahren_1 = "fuhr"; $Color["fahren_1"]="green";} else {$fahren_1 = $_POST["fahren_1"]; $Color["fahren_1"]="red";}
-if ($_POST["fahren_2"] == "ist/hat gefahren"){$fahren_2 = "ist/hat gefahren"; $Color["fahren_2"]="green";} else {$fahren_2 = $_POST["fahren_2"]; $Color["fahren_2"]="red";}
+if ($_POST["fahren_2"] == "hat gefahren" || "ist gefahren"){$fahren_2 = "ist/hat gefahren"; $Color["fahren_2"]="green";} else {$fahren_2 = $_POST["fahren_2"]; $Color["fahren_2"]="red";}
 
 /* Verbe Fallen */
 if ($_POST["fallen_i"] == "Fallen"){$fallen_i = "Fallen";$Color["fallen_i"]="green";} else {$fallen_i = $_POST["fallen_i"]; $Color["fallen_i"]="red"; }

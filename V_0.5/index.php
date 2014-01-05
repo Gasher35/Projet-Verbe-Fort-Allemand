@@ -5,7 +5,8 @@ include('Inc/header.php');
 
 ?>
 	<h2>Remplis les cases du <strong>tableau des verbes</strong> que tu veux réviser et <strong>vérifies tes réponses</strong> pour voir si tu connais tes <strong>verbes forts</strong> en <strong>Allemand</strong> sur le bout des doigts !</h2>
-	<h3>Avant de cliquer sur vérifiez , assurez vous de ne faire le moins de fautes possible, chaque faute apparaîtra en <em id="red">rouge</em> et chaque bonne réponse en <em id="green">vert</em>.</h3>
+	<p>Avant de cliquer sur vérifiez , assurez vous de ne faire le moins de fautes possible, chaque faute apparaîtra en <em id="red">rouge</em> et chaque bonne réponse en <em id="green">vert</em>.</p>
+	<p><em id="red">Attention :</em> Pensez bien à mettre une majuscule à vos verbes à l'infinitif ! </p>
 
 
 	<form method="post" action="verbes.php" autocomplete="off">
